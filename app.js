@@ -1,6 +1,6 @@
 const express = require('express')
 const logger = require('morgan')
-const cors = require('cors')
+// const cors = require('cors')
 const apiRouter = require('./routes/api/supersRouter')
 
 const app = express()
